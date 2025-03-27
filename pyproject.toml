@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "figlet-commit-graph"
+version = "0.1.0"
+description = "add some flair to your commit graph"
+authors = ["Ryan Downing <26515643+r-downing@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pyfiglet = "^1.0.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.isort]
+profile = "black"
+
+[tool.black]
+line-length = 120
